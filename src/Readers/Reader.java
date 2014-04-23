@@ -9,7 +9,7 @@ public abstract class Reader {
 	 * @return true if the file exists and false otherwise
 	 */
 	public boolean fileExists(String fileName) {
-			return (new File(fileName)).isFile();
+		return (new File(fileName)).isFile();
 	}
 	
 	abstract void iterator (BufferedReader reader);
